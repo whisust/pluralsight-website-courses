@@ -23,15 +23,15 @@ body {
 }
 
 .maincontainer {
-    width:1000px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
 
 .main__article-header-title {
-    font-size:35px;
-    color:#a593c2
+    font-size: 35px;
+    color: #a593c2
 }
 
 nav {
@@ -64,6 +64,13 @@ aside,
 nav,
 main,
 article,
-figure{
+figure {
     display: block;
+}
+
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
 }
