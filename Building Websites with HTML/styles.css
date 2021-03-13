@@ -34,6 +34,21 @@ body {
     color: #a593c2
 }
 
+.pie_product__container div {
+    background-color:  #f8f4f1;
+
+}
+
+.pie_product__container header {
+    font-size:  35px;
+    color:#a593c2;
+}
+
+.pie-product__cooking-indications {
+    color: #4dcfa8;
+    font-weight: bold;
+}
+
 nav {
     height: 60px;
     width: 1000px;
