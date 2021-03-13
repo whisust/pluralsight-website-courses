@@ -14,16 +14,29 @@
 <body>
 <header id="mainheader">
     <nav>
-        <img src="images/cake.svg" height="55"/>
+        <ul>
+            <li><img src="images/cake.svg" height="55"/></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pieoverview.html">All pies</a></li>
+        </ul>
     </nav>
 </header>
 <div class="maincontainer">
     <aside id="leftmenu">
-        <img src="images/bethanylogo.png" width="100"/>
+        <a href="index.html">
+            <img src="images/bethanylogo.png" width="100"/>
+        </a>
         <header>
             <h4 class="aside__browse-title">Browse our pies</h4>
             <input type="search" class="searchbox" placeholder="Search our Store">
         </header>
+        <ul>
+            <li><a href="pieoverview.html">All pies</a></li>
+            <li><a href="cheesecakes.html">Cheese cakes</a></li>
+            <li><a href="fruitpies.html">Fruit pies</a></li>
+            <li><a href="seasonalpies.html">Seasonal pies</a></li>
+            <li><a href="#promos">Promotions</a></li>
+        </ul>
     </aside>
     <main id="main">
         <article>
@@ -58,7 +71,7 @@
             </p>
         </article>
 
-        <section>
+        <section id="promos">
             <h3>Our weekly promotions</h3>
             <h4>Cheese Cake</h4>
             $12.95 - Serves 4<br>
