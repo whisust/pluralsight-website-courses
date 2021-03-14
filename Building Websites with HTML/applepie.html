@@ -10,6 +10,19 @@
 
 
     <link rel="stylesheet" href="styles.css"/>
+    <script>
+        function save() {
+            localStorage.setItem("applepie", true);
+        }
+
+        window.onload = function () {
+            var favorite = document.getElementById('favorite');
+            if (window.localStorage
+                && window.localStorage.getItem('applepie') === 'true') {
+                favorite.innerHTML = 'Apple pie is your favorite';
+            }
+        }
+    </script>
 </head>
 <body>
 <header id="mainheader">
@@ -48,6 +61,10 @@
                 </a>
                 <figcaption>Our world-famous apple pie</figcaption>
             </figure>
+            <p>
+                <button type="button" onclick="save()">Save as a favorite</button>
+                <span id="favorite"></span>
+            </p>
             <div>
                 <strong>Pice: $12.95</strong>
                 <h2>Description</h2>
